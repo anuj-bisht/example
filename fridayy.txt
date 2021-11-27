@@ -16,7 +16,7 @@ class NewsletterController extends Controller
     public function list(Request $request)
     {
         $list = Newsletter::where('is_deleted', 0)->get();
-        return view('admin.newsletter.list', compact('list'));a
+        return view('admin.newsletter.list', compact('list'));
     }
     public function form(Request $request)
     {
