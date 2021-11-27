@@ -65,7 +65,7 @@ class NewsletterController extends Controller
             $message->attach(public_path('/images/1619000081.jpg'));
             $message->from('nishant.techconfer@gmail.com', 'Nishant TechConfer');
         });
-        echo "Email Sent with attachment. Check your inbox.";
+        echo "Email Sent with attachment. Check your inbox..";
     }
 }
 
