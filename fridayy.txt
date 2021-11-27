@@ -55,7 +55,7 @@ class NewsletterController extends Controller
         //     }
         //     return redirect('admin/newsletter')->with(['message' => 'Mail Sent']);
         // } else {
-        //     return redirect('admin/newsletter')->with(['error' => 'Mail Failed'])a;
+        //     return redirect('admin/newsletter')->with(['error' => 'Mail Failed']);
         // }
 		//}
 
