@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\admin;
 
-use App\Http\Controllers\Controller;aa
+use App\Http\Controllers\Controller;a
 use App\Models\Newsletter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
